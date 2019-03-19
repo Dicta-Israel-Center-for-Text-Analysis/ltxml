@@ -1,4 +1,4 @@
-﻿/***************************************************************************
+/***************************************************************************
 
 Copyright (c) Microsoft Corporation 2013.
 
@@ -515,7 +515,7 @@ function addContent(xobj, putContentFunc, putAttributeFunc) {
     }
 }
 
-entityCodePoints = [
+entityCodePoints = [ /*
     60,
     62,
     39,
@@ -772,12 +772,12 @@ entityCodePoints = [
     9830 */
 ];
 
-entities = [
-    "lt",
-    "gt",
-    "apos",
-    "quot",
-    "amp"
+entities = [ /*
+    "*lt*",
+    "*gt*",
+    "*apos*",
+    "*quot*",
+    "*amp*"
     /*,
     "nbsp",
     "iexcl",
